@@ -1,0 +1,44 @@
+{{ require_js("https://cdn.jsdelivr.net/npm/enhanced-bind-polyfill@0.0.2/index.min.js", "head") }}
+{{ require_js("https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js", "head") }}
+{% require_css %}
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+    .belch-floating-search-super-container .bfss-trigger {
+      background: {{ module.icon_background_color.color }};
+      fill: {{ module.icon_color.color }};
+    }
+    .belch-floating-search-super-container .go-btn {
+      background: transparent;
+      fill: {{ module.go_icon_color.color }};
+    }
+    .belch-floating-search-super-container .bfss-search-box {
+      background: {{ module.search_box_background_color.color }};
+    }
+  </style>
+{% end_require_css %}
+<div class="belch-floating-search-super-container">
+  <div class="bfss-inner">
+    <div class="bfss-trigger">
+      {% icon
+        name="{{ module.search_icon.name }}"
+        style="{{ module.search_icon.type }}"
+        unicode="{{ module.search_icon.unicode }}"
+      %}
+    </div>
+    <div class="bfss-search-box">
+      <div class="bfss-search-pseudo-trigger"></div>
+      <div class="bfss-search-inner">
+        <form action="{{ module.search_results_link }}" class="bfss-form" method="GET">
+          <input name="term" type="text" placeholder="Search" />
+          <button type="submit" class="go-btn">
+            {% icon
+              name="{{ module.go_icon.name }}"
+              style="{{ module.go_icon.type }}"
+              unicode="{{ module.go_icon.unicode }}"
+            %}
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

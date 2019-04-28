@@ -1,0 +1,113 @@
+[ {
+  "id" : "f96d2939-6ab6-4a21-4992-4ea5fd862e13",
+  "name" : "search_icon",
+  "type" : "icon",
+  "label" : "Search Icon",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "name" : "search",
+    "unicode" : "f002",
+    "type" : "SOLID"
+  }
+}, {
+  "id" : "4ff9fd7c-0f2f-bf91-1bf8-c8551eb43567",
+  "name" : "icon_color",
+  "type" : "color",
+  "label" : "Search Icon Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "37eeedd2-d432-1571-b72b-d9f5b54b3b60",
+  "name" : "icon_background_color",
+  "type" : "color",
+  "label" : "Search Icon Background Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#999999",
+    "opacity" : 100
+  }
+}, {
+  "id" : "af0e2d8e-7eec-4ade-5641-515024b00b9b",
+  "name" : "go_icon",
+  "type" : "icon",
+  "label" : "Go Icon",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "name" : "arrow-alt-circle-right",
+    "unicode" : "f35a",
+    "type" : "REGULAR"
+  }
+}, {
+  "id" : "b4380856-9654-5126-1998-8effa5c16f54",
+  "name" : "search_results_link",
+  "type" : "text",
+  "label" : "search results link",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "placeholder" : "/hs-search-results",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "default" : "/hs-search-results"
+}, {
+  "id" : "b62e1825-7308-c595-46bc-f5a6fcd78573",
+  "name" : "search_box_background_color",
+  "type" : "color",
+  "label" : "Search Box Background Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "bb0ba243-8020-9cac-43a5-c1ca9155c4d3",
+  "name" : "go_icon_color",
+  "type" : "color",
+  "label" : "Go Icon Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#9a9a9a",
+    "opacity" : 100
+  }
+}, {
+  "id" : "d01fc86e-f0ce-6f0d-6c6d-0f8bcfa41ce6",
+  "name" : "search_close_icon",
+  "type" : "icon",
+  "label" : "Search Close Icon",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : { }
+} ]
